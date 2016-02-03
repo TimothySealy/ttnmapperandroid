@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">TTNmapper</string>
+    <string name="instructions">
+        This app is meant to map the coverage of TTN gateways. It will monitor packets received from a node,
+        plotting the location of the packets on a map. The signal strength is indicated by a colour,
+        creating a heatmap of the coverage.
+
+        \n\nThis app will use your phone\'s GPS to determine the location where a packet was sent from.
+        The LoRa node therefore needs to be as close as possible to your smartphone.
+
+        \n\nEnter your LoRa device address below, and then tap on start.</string>
+    <string name="title_activity_maps">Map</string>
+</resources>
