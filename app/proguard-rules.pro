@@ -16,3 +16,6 @@
 #   public *;
 #}
 -dontwarn okio.**
+-keep class org.eclipse.paho.client.mqttv3.logging.JSR47Logger {
+    *;
+}
